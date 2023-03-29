@@ -70,3 +70,24 @@ RTL
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
+Program:
+
+
+``` Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
+Developed by:MATHIYAZHAGAN.A 
+
+RegisterNumber: 22005215
+module volg(a,b,y1,y2,y3,y4,y5,y6,y7,y8);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7,y8;
+xor(y1,a,b);
+and(y2,a,b);
+nor(y3,a,b);
+or(y4,a,b);
+not(y5,a);
+not(y6,b);
+nand(y7,a,b);
+xnor(y8,a,b);
+endmodule
+
+```
