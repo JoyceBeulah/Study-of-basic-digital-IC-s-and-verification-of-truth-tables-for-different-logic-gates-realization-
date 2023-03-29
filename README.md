@@ -75,11 +75,13 @@ not(y6,b);
 nand(y7,a,b);
 xnor(y8,a,b);
 endmodule
-```
 */
+```
 Logic symbol & Truthtable
 RTL realization
 Output:
+![image](https://user-images.githubusercontent.com/118343698/228421028-f9f8862c-db8e-4576-abb0-22180f45b29a.png)
+![image](https://user-images.githubusercontent.com/118343698/228421090-1d47dad3-148d-44b9-9f63-e6360fb1bf63.png)
 RTL
 
 Result:
